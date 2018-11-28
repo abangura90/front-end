@@ -1,0 +1,8 @@
+version: "3.3"
+ 
+services:
+  frontend:
+    build: .
+    image: abangura90/frontend:v1
+    ports:
+      - 8079
